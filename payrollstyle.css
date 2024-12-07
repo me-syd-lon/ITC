@@ -1,0 +1,128 @@
+ /* navbar alterations*/
+#navDemo {
+  position: fixed;
+  top: 47px;
+  left: 0;
+  z-index: 2000;
+  height: 31%;
+  background-color: rgba(51, 51, 51, 0.9);
+  overflow-y: auto;
+  display: none;
+}
+
+#navDemo a {
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+}
+
+/* overall page styling */
+body {
+  background-image: url('https://wallpapercave.com/wp/wp6470193.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  overflow-y: auto; /* vertical scrolling */
+  height: 100vh;
+}
+
+/* heading section styling */
+.w3-container {
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+
+/* form and table section */
+.form-table-container {
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 10px 0 0;
+  padding: 10px;
+}
+
+/* fixed form styling */
+.form-container {
+  position: sticky; /* stick to the viewport */
+  left: 20px;
+  top: 20px;
+  width: 250px;
+  background-color: rgba(51, 51, 51, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* input fields styling */
+.form-container input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* button styling */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #555;
+}
+
+/* table container styling */
+#table {
+  flex: 1;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* table styles */
+#table table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+#table th, #table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#table th {
+  background-color: #333;
+  color: white;
+}
+
+#table tr:nth-child(even) {
+  background-color: #b3b3b3;
+}
+
+#table tr:nth-child(odd) {
+  background-color: #808080;
+}

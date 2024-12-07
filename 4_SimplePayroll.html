@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- saved from url=(0056)https://melonm.w3spaces-preview.com/4_SimplePayroll.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./4_SimplePayroll_files/w3.css">
-<link rel="stylesheet" href="./4_SimplePayroll_files/css">
-<link href="./4_SimplePayroll_files/css2" rel="stylesheet">
-<link rel="stylesheet" href="./4_SimplePayroll_files/font-awesome.min.css">
-<link href="./4_SimplePayroll_files/css2(1)" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
 
 <style>
 /* navbar alterations*/
@@ -141,23 +141,27 @@ body {
 
 </style>
 
-</head><body>
+<body>
 <!-- same navbar interface -->
   <div class="w3-top">
   <div class="w3-bar w3-transparent w3-card">
     <div class="dropdown-container" onmouseover="showDropdown()" onmouseout="hideDropdown()">
-    <a class="w3-bar-item w3-button w3-padding-large w3-left" href="javascript:void(0)" onmouseover="showDropdown()" onmouseout="hideDropdown()" title="Toggle Navigation Menu">
+    <a class="w3-bar-item w3-button w3-padding-large w3-left" 
+      href="javascript:void(0)" 
+      onmouseover="showDropdown()" 
+      onmouseout="hideDropdown()" 
+      title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
   <!-- dropdown menu -->
     <div id="navDemo" class="w3-sidebar w3-bar-block w3-hide" style="width: 200px;"> 
-      <a class="w3-padding-large w3-button" href="https://melonm.w3spaces-preview.com/1_Conversion.html" onclick="myFunction()">Temperature and Length Converter</a>
-      <a class="w3-padding-large w3-button" href="https://melonm.w3spaces-preview.com/2_TaxCalcu.html" onclick="myFunction()">Tax Caculator</a>
-      <a class="w3-padding-large w3-button" href="https://melonm.w3spaces-preview.com/3_NaturalNumbers.html" onclick="myFunction()">Print Natural Numbers</a>
-      <a class="w3-padding-large w3-button" href="https://melonm.w3spaces-preview.com/4_SimplePayroll.html" onclick="myFunction()">Simple Payroll</a>
+      <a class="w3-padding-large w3-button" href="./1_Conversion.html" onclick="myFunction()">Temperature and Length Converter</a>
+      <a class="w3-padding-large w3-button" href="./2_TaxCalcu.html" onclick="myFunction()">Tax Caculator</a>
+      <a class="w3-padding-large w3-button" href="./3_NaturalNumbers.html" onclick="myFunction()">Print Natural Numbers</a>
+      <a class="w3-padding-large w3-button" href="./4_SimplePayroll.html" onclick="myFunction()">Simple Payroll</a>
     </div>
   </div>
-    <a href="https://melonm.w3spaces-preview.com/index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="./index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
   </div>
 </div>
 
@@ -191,7 +195,7 @@ body {
     <button id="clearinput">Clear Input</button>
 
     <label for="inputs">Total Entries:</label>
-    <input id="inputs" name="inputs" type="number" readonly="">
+    <input id="inputs" name="inputs" type="number" readonly>
 
     <button id="cleartable">Clear Table</button>
 
@@ -349,5 +353,5 @@ function hideDropdown() {
     dropdown.classList.remove("w3-show"); // hide dropdown
 }
 </script>
-
-</body></html>
+</body>
+</html>

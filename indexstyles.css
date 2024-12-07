@@ -1,0 +1,40 @@
+body {
+  background-image: url('https://i.pinimg.com/736x/66/5d/53/665d530753fd00e1dd3830f5a463d640.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(26, 26, 26, 0.486);
+  background-blend-mode: overlay;
+  color: #FFFFFF;
+  font-family: "Montserrat"
+}
+.grid-container {
+  display: grid;
+  gap: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Montserrat"
+}
+
+.grid-item {
+    display: block; 
+    opacity: 0.5; 
+    transition: transform 0.3s, opacity 0.3s;
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer; 
+    border: 2px solid transparent;
+}
+
+.item:hover {
+    opacity: 1;
+    transform: scale(1.1); 
+    border-color: #F6F6F6;
+}
+
+.w3-show {display: block;}
+#w3-navDemo {display: none;}
+
+.mySlides {display: none}
